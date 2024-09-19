@@ -1,0 +1,28 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .app {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .app.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .app.dark {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
